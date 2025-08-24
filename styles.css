@@ -1,4 +1,4 @@
-/* ---------- Base ---------- */
+
 :root{
   --bg: #0b0f14;
   --glass: rgba(255,255,255,0.06);
@@ -6,9 +6,9 @@
   --text: #e6eef6;
   --muted: #9fb3c8;
   --accent: #7dd3fc;
-  --b1: #86efac;  /* Blok 1 */
-  --b2: #c7d2fe;  /* Blok 2 */
-  --bx: #fca5a5;  /* Unassigned */
+  --b1: #86efac; 
+  --b2: #c7d2fe; 
+  --bx: #fca5a5; 
 }
 
 *{ box-sizing: border-box; }
@@ -21,7 +21,6 @@ html, body{
   min-height: 100%;
 }
 
-/* ---------- Reusable ---------- */
 .glass{
   background: var(--glass);
   border: 1px solid var(--border);
@@ -69,7 +68,6 @@ header.topbar{
 
 main{ margin: 0 16px 16px; display:grid; gap:16px; }
 
-/* Controls */
 .controls{
   display:flex; flex-wrap:wrap; gap:12px; align-items:end; padding:14px;
 }
@@ -88,7 +86,6 @@ select:hover, input:hover{ border-color:#2a3a4d; }
 }
 .layout-toggle button.active{ background:linear-gradient(135deg,#22d3ee22,#60a5fa22); border-color:#3a556a; }
 
-/* Week grid */
 .week{ padding: 14px; }
 .week-grid{
   display:grid; gap:12px;
@@ -117,9 +114,9 @@ select:hover, input:hover{ border-color:#2a3a4d; }
 }
 .time{ font-weight:700; letter-spacing:.5px; }
 .room{ color: #a5d8ff;}
-.lect{ color: #ffd6a5; /* oranye pastel */
+.lect{ color: #ffd6a5;
   font-style: italic;}
-.sks{ color: #b5f5ec; /* hijau toska pastel */
+.sks{ color: #b5f5ec;
   font-weight: 600;}
 
 footer{
