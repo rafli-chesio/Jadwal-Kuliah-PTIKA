@@ -1,30 +1,69 @@
-# Jadwal Kuliah PTIKA
+```markdown
+# 📅 Jadwal Kuliah PTIK A
 
-Repositori ini berisi jadwal mata kuliah untuk program studi **Pendidikan Teknik Informatika dan Komputer (PTIKA)**. Jadwal ini dibuat untuk memudahkan akses dan referensi bagi mahasiswa.
+Aplikasi web sederhana berbasis **HTML + CSS + JavaScript** untuk menampilkan dan mengelola jadwal mata kuliah mahasiswa PTIK A.  
+Didesain agar jadwal lebih interaktif, bisa difilter, dicari, dan ditampilkan dalam dua mode: **Mingguan** & **Daftar**.
 
-## 🚀 Tampilan Langsung
-
-Jadwal dapat diakses secara langsung melalui halaman GitHub Pages berikut:
-
-**[https://rafli-chesio.github.io/Jadwal-Kuliah-PTIKA/](https://rafli-chesio.github.io/Jadwal-Kuliah-PTIKA/)**
-
-## 📚 Deskripsi
-
-Proyek ini bertujuan untuk menyediakan versi digital dari jadwal perkuliahan yang mudah diakses dari perangkat apa pun. Data jadwal disajikan dalam format tabel yang jelas dan informatif.
-
-### Detail Jadwal
-- **Program Studi**: Pendidikan Teknik Informatika dan Komputer (PTIKA)
-- **Kelas**: PTIK A 
-- **Format**: Tabel HTML dengan informasi Hari, Waktu, Mata Kuliah, Dosen, dan Ruangan.
-
-## 🛠️ Teknologi yang Digunakan
-- **HTML5**: Untuk struktur konten halaman.
-- **CSS3**: Untuk styling dan tampilan agar lebih menarik dan responsif.
-- **GitHub Pages**: Untuk hosting halaman web secara gratis.
-
-## 🤝 Kontribusi
-Jika Anda menemukan kesalahan atau memiliki pembaruan jadwal, jangan ragu untuk membuat *issue* atau melakukan *pull request*.
+## 🚀 Live Demo
+👉 [Klik di sini untuk melihat](https://rafli-chesio.github.io/Jadwal-Kuliah-PTIKA/)
 
 ---
-*Dibuat dan dikelola oleh [Rafli Chesio](https://github.com/rafli-chesio).*
+
+## ✨ Fitur Utama
+- 📌 **Tampilan Mingguan** – jadwal ditampilkan per-hari dalam grid.
+- 📋 **Tampilan Daftar** – daftar mata kuliah lengkap dengan detail dosen & ruang.
+- 🔍 **Filter & Pencarian**  
+  - Filter berdasarkan **blok kuliah** (Blok 1 / Blok 2).  
+  - Filter berdasarkan **hari**.  
+  - Pencarian mata kuliah, dosen, atau ruang.  
+- 🖥️ **UI Dinamis** – jadwal di-*render* langsung dari JavaScript (data terpusat di `script.js`).
+- 📱 **Responsive Design** – tampilan menyesuaikan device.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- **HTML5** → struktur halaman.
+- **CSS3** → styling dengan tema *glassmorphism* (efek kaca + dark mode).
+- **JavaScript Vanilla** → logika interaktif: filter, search, dan render tampilan.
+- **GitHub Pages** → hosting gratis.
+
+---
+
+## 📂 Struktur Project
+```
+
+Jadwal-Kuliah-PTIKA/
+├── index.html      # Halaman utama
+├── styles.css      # Styling (tema glass/dark)
+├── script.js       # Data & logika interaktif
+└── image.png       # Logo (opsional)
+
+````
+
+---
+
+## ▶️ Cara Menjalankan
+1. Clone repo ini:
+   ```bash
+   git clone https://github.com/rafli-chesio/Jadwal-Kuliah-PTIKA.git
+   cd Jadwal-Kuliah-PTIKA
+````
+
+2. Buka `index.html` di browser (cukup klik 2x aja).
+3. Atur filter atau search untuk eksplor jadwal.
+
+---
+
+## 🤝 Kontribusi
+
+Kalau ada error jadwal, fitur tambahan, atau ide keren lain:
+
+* Silakan buat **Issue**.
+* Atau langsung **Pull Request** biar project makin mantap.
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Rafli Chesio**
 
