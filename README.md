@@ -1,54 +1,29 @@
 # Jadwal Kuliah PTIKA
 
-Ini adalah proyek halaman web statis sederhana yang dibuat untuk menampilkan jadwal perkuliahan Program Studi Pendidikan Teknik Informatika dan Komputer (PTIKA).
+Repositori ini berisi jadwal mata kuliah untuk program studi **Pendidikan Teknik Informatika dan Komputer (PTIKA)**. Jadwal ini dibuat untuk memudahkan akses dan referensi bagi mahasiswa.
 
-![Tampilan Jadwal Kuliah](<img width="1895" height="925" alt="image" src="https://github.com/user-attachments/assets/8d51b9f1-4344-442c-9d22-e5802b56f273" />
-)
+## 🚀 Tampilan Langsung
 
----
-
-## 🚀 Tampilan Langsung (Live Demo)
-
-Kamu bisa melihat jadwalnya secara langsung melalui GitHub Pages di link berikut:
+Jadwal dapat diakses secara langsung melalui halaman GitHub Pages berikut:
 
 **[https://rafli-chesio.github.io/Jadwal-Kuliah-PTIKA/](https://rafli-chesio.github.io/Jadwal-Kuliah-PTIKA/)**
 
+## 📚 Deskripsi
 
----
+Proyek ini bertujuan untuk menyediakan versi digital dari jadwal perkuliahan yang mudah diakses dari perangkat apa pun. Data jadwal disajikan dalam format tabel yang jelas dan informatif.
+
+### Detail Jadwal
+- **Program Studi**: Pendidikan Teknik Informatika dan Komputer (PTIKA)
+- **Kelas**: 2A (dapat disesuaikan)
+- **Format**: Tabel HTML dengan informasi Hari, Waktu, Mata Kuliah, Dosen, dan Ruangan.
 
 ## 🛠️ Teknologi yang Digunakan
+- **HTML5**: Untuk struktur konten halaman.
+- **CSS3**: Untuk styling dan tampilan agar lebih menarik dan responsif.
+- **GitHub Pages**: Untuk hosting halaman web secara gratis.
 
-Proyek ini dibangun hanya menggunakan teknologi web dasar:
-
-* **HTML5:** Untuk struktur konten halaman.
-* **CSS3:** Untuk styling dan tampilan agar lebih rapi.
-
----
-
-## 💻 Cara Menjalankan Secara Lokal
-
-Jika kamu ingin melihat atau mengedit proyek ini di komputermu, ikuti langkah berikut:
-
-**1. Clone Repositori**
-Gunakan perintah ini di terminalmu:
-```bash
-git clone [https://github.com/rafli-chesio/Jadwal-Kuliah-PTIKA.git](https://github.com/rafli-chesio/Jadwal-Kuliah-PTIKA.git)
-```
-
-**2. Buka Folder**
-Masuk ke dalam folder proyek yang baru saja di-clone:
-```bash
-cd Jadwal-Kuliah-PTIKA
-```
-
-**3. Buka di Browser**
-Cari file `index.html` dan buka langsung menggunakan browser favoritmu (misalnya, Google Chrome, Firefox, atau lainnya).
-
-Selesai! Sekarang kamu bisa melihat jadwalnya di browsermu.
+## 🤝 Kontribusi
+Jika Anda menemukan kesalahan atau memiliki pembaruan jadwal, jangan ragu untuk membuat *issue* atau melakukan *pull request*.
 
 ---
-
-## 📄 Lisensi
-
-Proyek ini bebas digunakan dan didistribusikan di bawah Lisensi MIT.
-
+*Dibuat dan dikelola oleh [Rafli Chesio](https://github.com/rafli-chesio).*
