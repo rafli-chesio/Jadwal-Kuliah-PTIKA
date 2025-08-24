@@ -14,7 +14,7 @@ Proyek ini bertujuan untuk menyediakan versi digital dari jadwal perkuliahan yan
 
 ### Detail Jadwal
 - **Program Studi**: Pendidikan Teknik Informatika dan Komputer (PTIKA)
-- **Kelas**: 2A (dapat disesuaikan)
+- **Kelas**: PTIK A 
 - **Format**: Tabel HTML dengan informasi Hari, Waktu, Mata Kuliah, Dosen, dan Ruangan.
 
 ## 🛠️ Teknologi yang Digunakan
@@ -27,3 +27,4 @@ Jika Anda menemukan kesalahan atau memiliki pembaruan jadwal, jangan ragu untuk 
 
 ---
 *Dibuat dan dikelola oleh [Rafli Chesio](https://github.com/rafli-chesio).*
+
