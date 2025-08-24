@@ -112,7 +112,7 @@ const DAY_ORDER = ["Senin","Selasa","Rabu","Kamis","Jum'at"];
 const $ = (sel, root=document) => root.querySelector(sel);
 const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
 
-// Helpers
+
 function timeToMinutes(t){ const [H,M] = t.split(":").map(Number); return H*60 + M; }
 
 function courseBadge(blocks){
@@ -125,7 +125,7 @@ function courseBadge(blocks){
 }
 
 function renderWeek(){
-  // clear
+
   $$(".day-col .slots").forEach(el => el.innerHTML = "");
 
   const block = $("#blockFilter").value;
@@ -139,7 +139,6 @@ function renderWeek(){
     return blockOk && searchOk;
   });
 
-  // For each day, collect sessions
   DAY_ORDER.forEach(d => {
     const col = $(`.day-col[data-day="${d}"] .slots`);
     const items = [];
@@ -219,16 +218,13 @@ function syncViews(){
   renderList();
 }
 
-// UI Wiring
 window.addEventListener("DOMContentLoaded", () => {
   $("#year").textContent = new Date().getFullYear();
 
-  // Filters
   ["blockFilter","dayFilter","searchInput"].forEach(id => {
     $(id.startsWith("#") ? id : "#"+id).addEventListener("input", syncViews);
   });
 
-  // Layout toggle
   const viewWeekBtn = $("#viewWeek");
   const viewListBtn = $("#viewList");
   viewWeekBtn.addEventListener("click", () => {
@@ -244,6 +240,5 @@ window.addEventListener("DOMContentLoaded", () => {
     $("#weekView").classList.add("hidden");
   });
 
-  // Initial render
   syncViews();
 });
