@@ -59,8 +59,7 @@ Kalau ada error jadwal, fitur tambahan, atau ide keren lain:
 
 ## 👨‍💻 Author
 **Muhammad Rafli Chesio**  
-Mahasiswa PTIKA UNIMED yang pengen jadwal kuliah tampil modern, rapi, dan gampang diakses ✨
 
----
 
-💡 *Fun fact*: Semua jadwal & logika di-*hardcode* di `script.js`, jadi gampang dimodifikasi kalau ada update jadwal baru.
+
+
