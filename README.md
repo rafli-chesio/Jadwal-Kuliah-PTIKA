@@ -13,7 +13,6 @@ Kamu bisa melihat jadwalnya secara langsung melalui GitHub Pages di link berikut
 
 **[https://rafli-chesio.github.io/Jadwal-Kuliah-PTIKA/](https://rafli-chesio.github.io/Jadwal-Kuliah-PTIKA/)**
 
-*(Catatan: Pastikan kamu sudah mengaktifkan GitHub Pages di pengaturan repositorimu agar link ini berfungsi).*
 
 ---
 
@@ -52,3 +51,4 @@ Selesai! Sekarang kamu bisa melihat jadwalnya di browsermu.
 ## 📄 Lisensi
 
 Proyek ini bebas digunakan dan didistribusikan di bawah Lisensi MIT.
+
