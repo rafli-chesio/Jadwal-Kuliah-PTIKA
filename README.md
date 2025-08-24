@@ -1,7 +1,6 @@
-```markdown
-# 📅 Jadwal Kuliah PTIK A
+# 📅 Jadwal Kuliah PTIKA
 
-Aplikasi web sederhana berbasis **HTML + CSS + JavaScript** untuk menampilkan dan mengelola jadwal mata kuliah mahasiswa PTIK A.  
+Aplikasi web sederhana berbasis **HTML + CSS + JavaScript** untuk menampilkan dan mengelola jadwal mata kuliah mahasiswa PTIKA.  
 Didesain agar jadwal lebih interaktif, bisa difilter, dicari, dan ditampilkan dalam dua mode: **Mingguan** & **Daftar**.
 
 ## 🚀 Live Demo
@@ -31,14 +30,12 @@ Didesain agar jadwal lebih interaktif, bisa difilter, dicari, dan ditampilkan da
 
 ## 📂 Struktur Project
 ```
-
 Jadwal-Kuliah-PTIKA/
 ├── index.html      # Halaman utama
 ├── styles.css      # Styling (tema glass/dark)
 ├── script.js       # Data & logika interaktif
 └── image.png       # Logo (opsional)
-
-````
+```
 
 ---
 
@@ -47,23 +44,23 @@ Jadwal-Kuliah-PTIKA/
    ```bash
    git clone https://github.com/rafli-chesio/Jadwal-Kuliah-PTIKA.git
    cd Jadwal-Kuliah-PTIKA
-````
-
+   ```
 2. Buka `index.html` di browser (cukup klik 2x aja).
 3. Atur filter atau search untuk eksplor jadwal.
 
 ---
 
 ## 🤝 Kontribusi
-
 Kalau ada error jadwal, fitur tambahan, atau ide keren lain:
-
-* Silakan buat **Issue**.
-* Atau langsung **Pull Request** biar project makin mantap.
+- Silakan buat **Issue**.
+- Atau langsung **Pull Request** biar project makin mantap.
 
 ---
 
 ## 👨‍💻 Author
+**Muhammad Rafli Chesio**  
+Mahasiswa PTIKA UNIMED yang pengen jadwal kuliah tampil modern, rapi, dan gampang diakses ✨
 
-**Muhammad Rafli Chesio**
+---
 
+💡 *Fun fact*: Semua jadwal & logika di-*hardcode* di `script.js`, jadi gampang dimodifikasi kalau ada update jadwal baru.
